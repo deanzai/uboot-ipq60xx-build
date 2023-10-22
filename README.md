@@ -1,6 +1,3 @@
-install python2.7
-```https://blog.csdn.net/weixin_42030858/article/details/120509227```
-
 You will also like to see https://github.com/lgs2007m/cdt-gpt-ipq60xx-generate
 
 ## build env
