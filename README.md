@@ -13,8 +13,13 @@ u-boot-2016 source code base on https://github.com/gl-inet/uboot-ipq60xx
 
 PS: The mbn scripts run with python2.7, you should install and switch to python2.7.
 ```
-git clone https://github.com/bfmen/uboot-ipq60xx-build
+# 需要ubuntu 18.04版本才能安装python2.7
+git clone https://github.com/deanzai/uboot-ipq60xx-build
 cd uboot-ipq60xx-build/
+./build.sh
+
+# 如果是wsl编译
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 ./build.sh
 ```
 
